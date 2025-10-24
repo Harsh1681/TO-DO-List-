@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="header">
+        <h3>To-Do List <img src="https://images.rawpixel.com/image_png_social_square/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTEwL3Jhd3BpeGVsb2ZmaWNlMV9waG90b19jbGlwYXJ0X29mX2NvdHRhZ2Vjb3JlX25vdGVib29rX3BhcGVyX3NvZl9jYzliMjVhZC0xNzIwLTRlN2UtOWMxNi0wYTA1OThiM2Q2MmIucG5n.png">  </h3>
+    </div>
+    <div class="main">
+<form class="form" action="/">
+  <!-- Text Input and Add Button -->
+  <label class="text" for="text">
+    <input type="text" id="text" placeholder="Add your text">
+  </label>
+  <button type="button" class="add">Add</button>
+  
+  <br><br>
+
+  <!-- Checkboxes -->
+  <label class="one">
+    <input type="checkbox" onchange="toggleLine(this)"> Learn JavaScript Projects
+  </label><br>
+
+  <label class="one">
+    <input type="checkbox"> Make a To-Do List App
+  </label><br>
+
+  <label class="one">
+    <input type="checkbox"> Host it on a Server
+  </label><br>
+
+  <label class="one">
+    <input type="checkbox"> Link it to your Resume
+  </label><br>
+
+  <label class="one">
+    <input type="checkbox"> Get a Software Job
+  </label>
+</form>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>

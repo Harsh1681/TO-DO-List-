@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header img {
+  background: none;
+  height: 15px;
+}
+#text {
+  width: 250px;
+  position: relative;
+  height: 37px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.text {
+  width: 230px;
+  border-radius: 7px;
+}
+.add {
+  position: relative;
+  right: 79px;
+  z-index: 100000;
+  border-radius: 20px;
+  height: 37px;
+  width: 75px;
+}
+.one {
+  display: block;
+  font-size: 12px;
+  margin: 2px 0;
+  cursor: pointer;
+}
